@@ -33,8 +33,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Copy the Index
-        run: |
-          cp "index.html" "testing/index.html"
+        run: cp "index.html" "testing/not_index.txt"
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact  
